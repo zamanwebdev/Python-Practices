@@ -6,3 +6,6 @@ This is
 Multi Line 
 Comments 
 '''
+YourName = "Hablu"
+MyName = "Zaman"
+print("Your name is" + " " + YourName)
