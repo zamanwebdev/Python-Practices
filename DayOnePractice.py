@@ -25,3 +25,12 @@ print(type(complex))
 FirstName = "Syed Zaman"
 LastName = "Mostafiz"
 print("My Name is" + " " + FirstName + " " + LastName)
+# Boolean type data
+Bool = True
+print(Bool)
+print(type(Bool))
+x = 8
+y = 9
+z = x > y
+print(z)
+print(type(z))
