@@ -1,0 +1,5 @@
+Username = input("Enter Your Username = ")
+Password = input("Enter Your Password = ")
+print("Your Username is " + Username)
+print("Your Password is " + Password)
+input("Press Enter for Exit")
