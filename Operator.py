@@ -24,22 +24,16 @@ print(e)
 f = 10
 f-= 5 # Subtraction Assignment Operators
 print(f)
-
 G = 10
 G*= 5
 print(G) # Multiplication Assignment Operators
 print(f)
-
 H = 10
 H/= 5 # Division Assignment Operators
 print(H)
-
 H2 = 10
 H2%= 5 # Modulus Assignment Operators
 print(H)
-
-
-
 # Python Comparison Operators
 x = 5
 y = 3
@@ -55,7 +49,12 @@ print(x < y) # returns False because 5 is not less than 3
 print(x >= y) # returns True because five is greater, or equal, to 3
 # (<=) Less than or equal to Comparison Operators
 print(x <= y) # returns False because 5 is neither less than or equal to 3
-
-
 # Logical Operators
+x = 5
+print(x > 3 and x < 10)
+# returns True because 5 is greater than 3 AND 5 is less than 10
+x = 5
+print(x > 3 or x < 4)
+# returns True because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)
+print(not (x > 3 and x < 10))
 
