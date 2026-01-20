@@ -1,3 +1,4 @@
+
 li = [1,2,3]
 print(li)
 print(type(li))
@@ -9,3 +10,8 @@ print(type(lis))
 list = [True, False, True]
 print(list)
 print(type(list))
+# Access List Items
+Hablu = ["channelName", "Website","Group"]
+print(Hablu[1])
+
+
