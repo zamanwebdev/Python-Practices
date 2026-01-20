@@ -13,5 +13,10 @@ print(type(list))
 # Access List Items
 Hablu = ["channelName", "Website","Group"]
 print(Hablu[1])
+# Python List append() Method
+Hablu.append(10)
+print(Hablu)
+Hablu.insert(1,'Google +')
+print(Hablu)
 
 
