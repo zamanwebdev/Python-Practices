@@ -10,5 +10,5 @@ for i in range(len(LoopList)):
 y = 0
 while y < len(LoopList):
     print(LoopList[y])
-    y = y + 1
+    y += 1
 
