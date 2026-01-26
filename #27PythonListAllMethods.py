@@ -64,5 +64,19 @@ fruits = ['apple', 'banana', 'cherry']
 x = fruits.pop(1)
 print(x)
 # remove()	Removes the item with the specified value
+fruits = ['apple', 'banana', 'cherry']
+fruits.remove("banana")
+print(fruits)
 # reverse()	Reverses the order of the list
+fruits = ['apple', 'banana', 'cherry']
+fruits.reverse()
+print(fruits)
 # sort()	Sorts the list
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+
+
+
