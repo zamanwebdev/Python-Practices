@@ -1,0 +1,10 @@
+#31 Python Update Tuple
+thisTuple = ("Zaman","Zahid", "Sumon")
+print(type(thisTuple))
+a = list(thisTuple)
+a.append("Pintu")
+print(a)
+print(type(a))
+thisTuple = tuple(a)
+print(type(thisTuple))
+print(thisTuple)
