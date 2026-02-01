@@ -25,3 +25,7 @@ y = studentInfo.keys()
 print(y)
 z = studentInfo.values()
 print(z)
+studentInfo["Year"] = 2005
+print(studentInfo["Year"])
+studentInfo.update({"Tutul": "Tutul is a CSE Student"})
+print(studentInfo["Tutul"])
