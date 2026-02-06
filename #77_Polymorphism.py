@@ -8,10 +8,11 @@ class Plane(Vehicle):
     pass
 class Car(Vehicle):
     pass
-class
+class Bike(Vehicle):
+    pass
 p1 = Plane("Hablu420","Hablu","All Component")
 c1 = Car("BMW","E221","Main Component")
-b1 = Bike("")
+b1 = Bike("Bike Modle","Bike Brand","Bike Component")
 print(p1.Brand,p1.Model,p1.Component)
 print(c1.Model,c1.Brand,c1.Component)
 
